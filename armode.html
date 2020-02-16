@@ -28,7 +28,7 @@
           document.getElementById("swipeButton").style.display = "inline-block";
 
           // Create new entity for the new object
-          const newElement = document.getElementById('newModel')
+          const newElement = document.createElement('a-entity')
 
           // The raycaster gives a location of the touch in the scene
           const touchPoint = event.detail.intersection.point
@@ -37,11 +37,11 @@
           const randomYRotation = Math.random() * 360
           newElement.setAttribute('rotation', '0 ' + randomYRotation + ' 0')
 
-          // newElement.setAttribute('visible', 'false')
+          newElement.setAttribute('visible', 'false')
           newElement.setAttribute('scale', '0.01 0.01 0.01')
 
-          // newElement.setAttribute('gltf-model', '#rodin')
-          // this.el.sceneEl.appendChild(newElement)
+          newElement.setAttribute('gltf-model', '#rodin')
+          this.el.sceneEl.appendChild(newElement)
           const ground = document.getElementById("ground");
           ground.classList.remove("cantap"); // only allow for model to be placed once
 
@@ -67,7 +67,7 @@
           });
 
           newElement.addEventListener('model-loaded', () => {
-            console.log(' model loaded')
+            console.log('model loaded')
             // Once the model is loaded, we are ready to show it popping in using an animation
             newElement.setAttribute('visible', 'true')
             newElement.setAttribute('animation', {
@@ -95,14 +95,12 @@
   <a-scene xrweb tap-place xrextras-almost-there xrextras-loading xrextras-runtime-error>
 
     <a-assets>
-      <a-asset-item id="rodin" src="https://ybinstock.github.io/dailySculptureAR/assets/rodin/scene.gltf" preload="auto"></a-asset-item>
+      <a-asset-item id="rodin" src="/assets/rodin/scene.gltf" preload="auto"></a-asset-item>
     </a-assets>
 
     <!-- The raycaster will emit mouse events on scene objects specified with the cantap class -->
     <a-camera position="0 8 0" raycaster="objects: .cantap" cursor="fuse: false; rayOrigin: mouse;">
     </a-camera>
-
-    <a-entity id="newModel" gltf-model="#rodin" visible=false> </a-entity>
 
     <a-entity light="type: directional; intensity: 0.8;" position="1 4.3 2.5"> </a-entity>
     <a-light type="ambient" intensity="1"></a-light>
