@@ -1,0 +1,49 @@
+{
+  "Dates": {
+    "4_12_2019": {
+      "Sketchfab_link": "https://sketchfab.com/3d-models/les-bourgeois-de-calais-by-rodin-387889bbe73648c38589a3fffd1f876c",
+      "Description_link": "https://en.wikipedia.org/wiki/The_Burghers_of_Calais",
+      "Model_link": "https://ybinstock.github.io/dailySculptureAR/assets/rodin/scene.gltf",
+      "Title": "Les Bourgeois de Calais by Rodin",
+      "Author": "Auguste Rodin",
+      "Year": "1889",
+      "Description": "Les Bourgeois de Calais is a sculpture by Auguste Rodin, that exists in twelve original castings, and numerous copies. It commemorates an event during the Hundred Years' War, when Calais, a French port on the English Channel, was under siege by the English for about eleven months."
+    },
+    "4_13_2019": {
+      "Sketchfab_link": "https://sketchfab.com/3d-models/197016-neck-amphora-0bb2525bdd734bf69d5a7b2b051928ad",
+      "Description_link": "https://www.clevelandart.org/art/1970.16",
+      "Model_link": "https://ybinstock.github.io/dailySculptureAR/assets/rodin/scene.gltf",
+      "Title": "Neck Amphora",
+      "Author": "515-510 BC",
+      "Year": "515-510 BC",
+      "Description": "The amphora was one of the most popular vase shapes towards the end of the 6th century BC. The expansive belly of this vase is well-suited to the more active and voluminous figures introduced in the 6th century. Side A: Herakles wrestles with the Nemean lion while Athena looks on. To the left is his nephew, Iolaos, holding his uncle's wooden club. Side B: Dionysus celebrates a drunken thiasos (reveling scene) with satyrs and maenads."
+    },
+    "4_14_2019": {
+      "Sketchfab_link": "https://sketchfab.com/3d-models/saluting-protective-spirit-883-859-bc-e059aaa709694929abcd87c2411c1a06",
+      "Description_link": "https://www.clevelandart.org/art/1943.246",
+      "Model_link": "https://ybinstock.github.io/dailySculptureAR/assets/rodin/scene.gltf",
+      "Title": "Saluting Protective Spirit",
+      "Author": "",
+      "Year": "883-859 BC",
+      "Description": "Striding forward with muscular arms and legs, this winged deity offers a gesture of salutation along with symbols of agricultural bounty. Inscribed with an account of the Assyrian king Ashurnasirpal II's military conquests and victories, this relief once stood alongside hundreds of similar ones that decorated the palace at Nimrud."
+    },
+    "4_15_2019": {
+      "Sketchfab_link": "https://sketchfab.com/3d-models/2011110-indian-combat-7723feae34eb441fa9f74dd330b7b7d5",
+      "Description_link": "https://www.clevelandart.org/art/2011.110",
+      "Model_link": "https://ybinstock.github.io/dailySculptureAR/assets/rodin/scene.gltf",
+      "Title": "Indian Combat",
+      "Author": "Edmonia Lewis",
+      "Year": "1868",
+      "Description": "Lewis studied at Oberlin College and apprenticed with a sculptor in Boston before relocating to Rome in 1866. Of Native American (Ojibwe) and African American ancestry, she became the first non-white American sculptor to achieve international renown. Lewis’s most popular works were Native American subjects, readily purchased by patrons on both sides of the Atlantic. Indian Combat, a spiraling composition with three intertwined figures, ranks as her most dynamic and complex creation. Although Lewis’s Native American subjects typically exist in multiple versions, this example appears to be unique."
+    },
+    "4_16_2019": {
+      "Sketchfab_link": "https://sketchfab.com/3d-models/1952513-head-of-amenhotep-iii-ff3dd192a81944a0a93a54beb8a7a27f",
+      "Description_link": "https://www.clevelandart.org/art/1952.513",
+      "Model_link": "https://ybinstock.github.io/dailySculptureAR/assets/rodin/scene.gltf",
+      "Title": "Head of Amenhotep III Wearing the Blue Crown",
+      "Author": " ",
+      "Year": "c. 1391-1353 BC",
+      "Description": "During the long, peaceful reign of Amenhotep III, Egypt reached a pinnacle of wealth and splendor. This magnificent portrait captures the ruler's exotic features to perfection. He has large, almond-shaped eyes, elegant arched eyebrows, and a full mouth. His face is youthful and without blemish. The bone structure is lost in the fleshy fullness of the face. The contrast between polished and roughened surfaces is a hallmark of hard stone images of Amenhotep III. The flesh areas were smoothed to a glistening sheen, while the eyeballs and the crown were left rougher. The roughening of the crown also had a practical purpose, for the upper portion was originally painted blue and the browband was painted yellow. The paint would have adhered better to the unpolished surface."
+    }
+  }
+}
